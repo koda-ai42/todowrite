@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "writeToolName": "todowrite",
+  "description": "Create and maintain a structured task list for the current session. Call this with your initial plan BEFORE executing the first step of any multi-step task. Update the list at meaningful checkpoints — when a major task finishes or the plan changes — and mark all tasks completed when the work is done; batching minor updates is fine. Pass the complete list on every call; it fully replaces the stored list.",
+  "maxTodos": 50,
+  "codemode": false,
+  "readToolName": "todoread",
+  "readEnabled": false,
+  "systemGuidance": true
+}

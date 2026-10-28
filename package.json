@@ -1,0 +1,33 @@
+{
+  "name": "todowrite",
+  "version": "0.1.0",
+  "description": "OpenCode V2 plugin restoring the V1-style todowrite/todoread todo tools",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koda-ai42/todowrite.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "todo",
+    "todowrite"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test \"test/*.test.ts\""
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
